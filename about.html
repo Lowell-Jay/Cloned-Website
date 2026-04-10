@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Cloned</title>
+    <link rel="icon" type="image/png" href="Assets/cloned_fabicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+
+    <div id="ReadMore"></div>
+
+    <main class="about-container">
+        <div class="about">
+            <h1 class="page-title">ALL ABOUT CLONED</h1>
+
+            <!-- TOP CARD -->
+            <section class="about-card about-main-card reveal reveal-left">
+                <div class="about-text reveal reveal-left">
+                    <p>
+                        Cloned is a 2D top-down horror puzzle adventure game where players explore a mysterious mansion
+                        filled with secrets, dangers, and strange creatures. As the protagonist Clare, players must
+                        uncover hidden clues, collect key items, and survive the horrors that lurk within while discovering
+                        the truth behind the mansion and their own identity.
+                    </p>
+
+                    <p>
+                        Clare is the lone heroine of the game. She awakens trapped inside a laboratory with fragmented
+                        memories and must navigate a dark mansion while uncovering the truth behind her existence.
+                    </p>
+                </div>
+
+                <div class="about-image-box reveal reveal-left">
+                    <img src="Assets/Orig_clare.png" alt="Original Clare">
+                </div>
+            </section>
+
+            <!-- BOTTOM CARD -->
+            <section class="about-card about-details-card reveal reveal-right">
+                <div class="about-details-grid reveal reveal-right">
+                    <div class="about-detail-box production-box">
+                        <h3>Production</h3>
+                        <img src="Assets/darkon5-HighRes.png" alt="Darkon 5 Logo" class="production-logo">
+                    </div>
+
+                    <div class="about-detail-box reveal reveal-right">
+                        <h3>Developers</h3>
+                        <p>
+                            Malinao, Lowell Jay - Game Director<br>
+                            Leonardo, Christ Jhunelle - Lead Programmer<br>
+                            Amigo, Granth Nikko - 2D artist<br>
+                            Idio, Vincent - 2D artist<br>
+                            Tagulao, Nathan - UI designer
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-card">
+
+                <h2 class="footer-title">Darkon 5</h2>
+
+                <p class="footer-text">
+                    Follow Darkon 5 for updates and future developments of CLONED.
+                </p>
+
+                <div class="footer-icons">
+                    <img src="Assets/facebook.png" alt="Facebook">
+                    <img src="Assets/twitter.png" alt="Twitter">
+                    <img src="Assets/youtube.png" alt="YouTube">
+                    <img src="Assets/instagram.png" alt="Instagram">
+                </div>
+
+                <div class="footer-links">
+                    <span>Privacy Policy</span>
+                    <span>|</span>
+                    <span>Terms of Use</span>
+                    <span>|</span>
+                    <span>Contact</span>
+                </div>
+
+                <p class="footer-copy">
+                    Game trademarks and copyrights are properties of their respective owners.
+                    Darkon 5 properties are trademarks of Darkon 5.
+                </p>
+
+            </div>
+        </div>
+    </footer>
+</html>
+    <script>
+        fetch("ReadMore.html")
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById("ReadMore").innerHTML = data;
+          });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
